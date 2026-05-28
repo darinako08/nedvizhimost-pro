@@ -1,0 +1,48 @@
+.profile-page {
+  padding: 20px;
+}
+
+.profile-header {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+
+.profile-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.profile-tabs button {
+  background: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #7f8c8d;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.profile-tabs button.active {
+  color: #3498db;
+  border-bottom-color: #3498db;
+}
+
+.no-properties {
+  text-align: center;
+  padding: 60px;
+  background: white;
+  border-radius: 12px;
+  color: #7f8c8d;
+}

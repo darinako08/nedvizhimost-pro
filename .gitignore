@@ -1,0 +1,20 @@
+echo "# Dependencies" > .gitignore
+echo "node_modules/" >> .gitignore
+echo "package-lock.json" >> .gitignore
+echo "" >> .gitignore
+echo "# Backend" >> .gitignore
+echo "backend/uploads/" >> .gitignore
+echo "backend/.env" >> .gitignore
+echo "backend/node_modules/" >> .gitignore
+echo "" >> .gitignore
+echo "# Frontend" >> .gitignore
+echo "frontend/node_modules/" >> .gitignore
+echo "frontend/build/" >> .gitignore
+echo "" >> .gitignore
+echo "# IDE" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "" >> .gitignore
+echo "# OS" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore

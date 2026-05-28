@@ -1,0 +1,89 @@
+.login-page {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.login-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.submit-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(52,152,219,0.3);
+}
+
+.toggle-mode {
+  text-align: center;
+  margin-top: 20px;
+  color: #7f8c8d;
+}
+
+.toggle-mode button {
+  background: none;
+  color: #3498db;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.forgot-password {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  background: none;
+  color: #95a5a6;
+  font-size: 14px;
+}
+
+.error-message {
+  background: #fdecea;
+  color: #e74c3c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}

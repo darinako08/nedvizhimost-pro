@@ -1,0 +1,87 @@
+.support-page {
+  min-height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 40px 20px;
+}
+
+.support-container {
+  max-width: 1000px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.support-info {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: white;
+  padding: 40px;
+}
+
+.support-info h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.support-info h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.support-form {
+  padding: 40px;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.support-form textarea {
+  resize: vertical;
+}
+
+.success-message {
+  text-align: center;
+  padding: 60px;
+  background: white;
+  border-radius: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.success-message h2 {
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.ok-btn {
+  background: #3498db;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .support-container {
+    grid-template-columns: 1fr;
+  }
+}
